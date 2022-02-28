@@ -1,0 +1,60 @@
+body {
+  display: flex;
+}
+
+nav {
+  border: 1px solid #394249;
+  height: 100vh;
+  width: 20vw;
+  background-color: #394249;
+}
+
+main {
+  border: 1px solid red;
+  height: 100vh;
+  width: 80vw;
+}
+
+.logo {
+  width: 20vw;
+}
+
+.logIn-area {
+  display: flex;
+  justify-content: center;
+}
+
+.logIn-area div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logIn-input {
+  width: 12vw;
+  height: 1em;
+}
+.logIn-button {
+  width: 7vw;
+  height: 3em;
+  margin-left: 0.2em;
+}
+
+.input-top {
+  display: flex;
+  position: relative;
+}
+
+.input-title {
+  width: 100%;
+}
+
+.input-writer {
+  width: 25vw;
+  margin-left: 1em;
+}
+
+.input-inner {
+  display: flex;
+  flex-direction: column;
+}
